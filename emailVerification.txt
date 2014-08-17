@@ -1,0 +1,7 @@
+Hey {{username}},
+{{#if isRegistration}}
+um deine Registration bei Gamekeller abzuschließen, folge bitte diesem Link: {{link}}
+{{else}}
+um deine neue E-Mail-Adresse zu bestätigen, folge bitte diesem Link: {{link}}
+{{/if}}
+- Das Gamekeller-Team
